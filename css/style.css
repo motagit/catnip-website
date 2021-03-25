@@ -26,6 +26,7 @@ img {
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
+	transition: all .5s ease;
 }
 
 .btn:hover{
@@ -103,6 +104,7 @@ img {
 	line-height: 20px;
 	padding: 10px 0;
 	text-decoration: none;
+	transition: all .3s ease;
 }
 
 .header_menu ul li a:hover {
@@ -368,3 +370,9 @@ img {
 	background: #fec63e;
 	padding: 20px 0;
 }
+
+/* Animações */
+.introduction h1, .introduction blockquote, .introduction .btn, .animar, .animar-interno, .introduction-interna h1, .introduction-interna p, .animar-port {
+	opacity: 0;
+}
+
