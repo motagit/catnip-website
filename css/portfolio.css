@@ -45,7 +45,7 @@
   top: 0;
  }
 
-.rslidesli: first-child, .rslides_portfolio li:first-child {
+.rslides li:first-child, .rslides_portfolio li:first-child {
   position: relative;
   display: block;
   float: left;
